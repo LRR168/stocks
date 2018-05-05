@@ -17,7 +17,6 @@ content = html.text
 
 
 pl = "target=\"_blank\">(.*?)</a></li>"
-
 palist = re.compile(pl)
 stocklist = palist.findall(content)
 
